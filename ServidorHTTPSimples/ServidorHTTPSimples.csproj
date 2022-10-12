@@ -43,12 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PaginaCadastroProduto.cs" />
+    <Compile Include="PaginaDinamica.cs" />
+    <Compile Include="PaginaProdutos.cs" />
+    <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServidorHTTP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="www\localhost\cadastroproduto.dhtml" />
+    <None Include="www\localhost\parametros.dhtml" />
+    <None Include="www\localhost\produtos.dhtml" />
+    <None Include="www\localhost\tiposmime.dhtml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="www\index.html" />
+    <Content Include="www\localhost\estilos.css" />
+    <Content Include="www\localhost\index.html" />
+    <Content Include="www\localhost\servidor.png" />
+    <Content Include="www\localhost\sobre.html" />
+    <Content Include="www\maroquio.com\estilos.css" />
+    <Content Include="www\maroquio.com\index.html" />
+    <Content Include="www\maroquio.com\servidor.png" />
+    <Content Include="www\maroquio.com\sobre.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
